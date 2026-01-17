@@ -17,7 +17,7 @@ Installation on a mac machine requires homebrew so install this [from here](http
 Deploy (e.g. source aliases for .zshrc, apply oh-my-zsh settings etc..)
 ```bash
 # Remote linux machine
-./deploy.sh  
+ 
 # (optional) Deploy with extra aliases (useful for remote machines where you want specific aliases)
 ./deploy.sh --aliases=speechmatics
 # (optional) Include simple vimrc 

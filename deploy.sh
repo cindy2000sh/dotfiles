@@ -51,7 +51,10 @@ if [ -n "${ALIASES+x}" ]; then
     done
 fi
 
-echo "changing default shell to zsh"
-chsh -s $(which zsh)
+# echo "changing default shell to zsh"
+# chsh -s $(which zsh) # commented out to avoid password prompt during deploy
+
+echo "starting zsh (not changing login shell)"
+exec zsh
 
 zsh
